@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		438803531A63A0C2007226CF /* CLLoginUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438803521A63A0C2007226CF /* CLLoginUIViewController.m */; };
 		438803561A63A0FA007226CF /* CLRegesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438803551A63A0FA007226CF /* CLRegesterViewController.m */; };
+		438803591A63B6FC007226CF /* CLPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = 438803581A63B6FC007226CF /* CLPublic.m */; };
 		771B272B1A5BC4480013198E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771B272A1A5BC4480013198E /* Foundation.framework */; };
 		771B272D1A5BC4480013198E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771B272C1A5BC4480013198E /* CoreGraphics.framework */; };
 		771B272F1A5BC4480013198E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771B272E1A5BC4480013198E /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 		438803521A63A0C2007226CF /* CLLoginUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoginUIViewController.m; sourceTree = "<group>"; };
 		438803541A63A0FA007226CF /* CLRegesterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRegesterViewController.h; sourceTree = "<group>"; };
 		438803551A63A0FA007226CF /* CLRegesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRegesterViewController.m; sourceTree = "<group>"; };
+		438803571A63B6FC007226CF /* CLPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPublic.h; sourceTree = "<group>"; };
+		438803581A63B6FC007226CF /* CLPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPublic.m; sourceTree = "<group>"; };
 		771B27271A5BC4480013198E /* CLGiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLGiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		771B272A1A5BC4480013198E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		771B272C1A5BC4480013198E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 				438803521A63A0C2007226CF /* CLLoginUIViewController.m */,
 				438803541A63A0FA007226CF /* CLRegesterViewController.h */,
 				438803551A63A0FA007226CF /* CLRegesterViewController.m */,
+				438803571A63B6FC007226CF /* CLPublic.h */,
+				438803581A63B6FC007226CF /* CLPublic.m */,
 			);
 			path = CLGiftProject;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				771B27411A5BC4480013198E /* CLCompanyViewController.m in Sources */,
+				438803591A63B6FC007226CF /* CLPublic.m in Sources */,
 				438803561A63A0FA007226CF /* CLRegesterViewController.m in Sources */,
 				438803531A63A0C2007226CF /* CLLoginUIViewController.m in Sources */,
 				771B27371A5BC4480013198E /* main.m in Sources */,
