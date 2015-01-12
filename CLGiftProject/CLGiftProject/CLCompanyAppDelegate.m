@@ -7,12 +7,40 @@
 //
 
 #import "CLCompanyAppDelegate.h"
+#import "CLCompanyViewController.h"
 
 @implementation CLCompanyAppDelegate
+
+//测试单个viewController，否则注释掉NEED_TEST
+#pragma mark- test ViewController
+//#define NEED_TEST YES
+- (UIViewController *)testViewInWindow
+{
+    CLCompanyViewController *vc = [[CLCompanyViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    return nav;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+#ifdef NEED_TEST
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UIViewController *vc = [self testViewInWindow];
+    [self.window setRootViewController:vc];
+    [self.window makeKeyAndVisible];
+    return YES;
+#endif
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    CLCompanyViewController *vc = [[CLCompanyViewController alloc] init];
+    self.window.rootViewController = vc;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

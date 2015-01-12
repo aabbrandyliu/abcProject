@@ -7,6 +7,10 @@
 //
 
 #import "CLCompanyViewController.h"
+#import "QRRootViewController.h"
+
+#import "UIButton+extras.h"
+#import "CLPredefine.h"
 
 @interface CLCompanyViewController ()
 
@@ -18,7 +22,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"yeyeyeye");
+    self.view.backgroundColor = [UIColor whiteColor];
+    NSLog(@"yeyeyeyess");
+    UIButton *bt = [UIButton createButtonWithFrame:CGRectMake((kScreenSize.width - 200)/2, 200, 200, 80) target:self selector:@selector(scanAction:) image:nil imagePressed:nil title:@"扫一扫" isDarkText:YES];
+    [self.view addSubview:bt];
+}
+
+- (void)scanAction:(id)sender
+{
+    NSLog(@"这里是扫一扫");
+    
+    [self setupCamera];
+}
+
+-(void)setupCamera
+{
+    if(iOS7)
+    {
+        QRRootViewController *rt = [[QRRootViewController alloc]init];
+        [self.navigationController pushViewController:rt animated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning

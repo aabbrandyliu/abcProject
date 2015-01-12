@@ -21,6 +21,15 @@
 		771B274C1A5BC4480013198E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771B272E1A5BC4480013198E /* UIKit.framework */; };
 		771B27541A5BC4480013198E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 771B27521A5BC4480013198E /* InfoPlist.strings */; };
 		771B27561A5BC4480013198E /* CLGiftProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 771B27551A5BC4480013198E /* CLGiftProjectTests.m */; };
+		77E02ECE1A63A0DA0000155B /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02EBE1A63A0D90000155B /* NetworkUtil.m */; };
+		77E02ECF1A63A0DA0000155B /* NSDate+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02EC01A63A0D90000155B /* NSDate+Common.m */; };
+		77E02ED01A63A0DA0000155B /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02EC21A63A0D90000155B /* NSString+Common.m */; };
+		77E02ED11A63A0DA0000155B /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02EC41A63A0D90000155B /* NSString+Helper.m */; };
+		77E02ED21A63A0DA0000155B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02EC71A63A0D90000155B /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77E02ED31A63A0DA0000155B /* UIButton+extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02EC91A63A0D90000155B /* UIButton+extras.m */; };
+		77E02ED41A63A0DA0000155B /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02ECB1A63A0D90000155B /* UIColor+Common.m */; };
+		77E02ED51A63A0DA0000155B /* UIDevice+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02ECD1A63A0DA0000155B /* UIDevice+Common.m */; };
+		77E02ED91A63B72C0000155B /* QRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02ED81A63B72C0000155B /* QRRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,25 @@
 		771B27511A5BC4480013198E /* CLGiftProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLGiftProjectTests-Info.plist"; sourceTree = "<group>"; };
 		771B27531A5BC4480013198E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		771B27551A5BC4480013198E /* CLGiftProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLGiftProjectTests.m; sourceTree = "<group>"; };
+		77E02EBD1A63A0D90000155B /* NetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
+		77E02EBE1A63A0D90000155B /* NetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
+		77E02EBF1A63A0D90000155B /* NSDate+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Common.h"; sourceTree = "<group>"; };
+		77E02EC01A63A0D90000155B /* NSDate+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Common.m"; sourceTree = "<group>"; };
+		77E02EC11A63A0D90000155B /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		77E02EC21A63A0D90000155B /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		77E02EC31A63A0D90000155B /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		77E02EC41A63A0D90000155B /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		77E02EC61A63A0D90000155B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		77E02EC71A63A0D90000155B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		77E02EC81A63A0D90000155B /* UIButton+extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+extras.h"; sourceTree = "<group>"; };
+		77E02EC91A63A0D90000155B /* UIButton+extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extras.m"; sourceTree = "<group>"; };
+		77E02ECA1A63A0D90000155B /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
+		77E02ECB1A63A0D90000155B /* UIColor+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
+		77E02ECC1A63A0D90000155B /* UIDevice+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Common.h"; sourceTree = "<group>"; };
+		77E02ECD1A63A0DA0000155B /* UIDevice+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Common.m"; sourceTree = "<group>"; };
+		77E02ED61A63A28E0000155B /* CLPredefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPredefine.h; sourceTree = "<group>"; };
+		77E02ED71A63B72C0000155B /* QRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRRootViewController.h; sourceTree = "<group>"; };
+		77E02ED81A63B72C0000155B /* QRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +140,9 @@
 		771B27301A5BC4480013198E /* CLGiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				77E02ED71A63B72C0000155B /* QRRootViewController.h */,
+				77E02ED81A63B72C0000155B /* QRRootViewController.m */,
+				77E02EBC1A63A0D90000155B /* Common */,
 				771B27391A5BC4480013198E /* CLCompanyAppDelegate.h */,
 				771B273A1A5BC4480013198E /* CLCompanyAppDelegate.m */,
 				771B273C1A5BC4480013198E /* Main.storyboard */,
@@ -150,6 +181,38 @@
 				771B27521A5BC4480013198E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77E02EBC1A63A0D90000155B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				77E02ED61A63A28E0000155B /* CLPredefine.h */,
+				77E02EC51A63A0D90000155B /* Reachability */,
+				77E02EBD1A63A0D90000155B /* NetworkUtil.h */,
+				77E02EBE1A63A0D90000155B /* NetworkUtil.m */,
+				77E02EBF1A63A0D90000155B /* NSDate+Common.h */,
+				77E02EC01A63A0D90000155B /* NSDate+Common.m */,
+				77E02EC11A63A0D90000155B /* NSString+Common.h */,
+				77E02EC21A63A0D90000155B /* NSString+Common.m */,
+				77E02EC31A63A0D90000155B /* NSString+Helper.h */,
+				77E02EC41A63A0D90000155B /* NSString+Helper.m */,
+				77E02EC81A63A0D90000155B /* UIButton+extras.h */,
+				77E02EC91A63A0D90000155B /* UIButton+extras.m */,
+				77E02ECA1A63A0D90000155B /* UIColor+Common.h */,
+				77E02ECB1A63A0D90000155B /* UIColor+Common.m */,
+				77E02ECC1A63A0D90000155B /* UIDevice+Common.h */,
+				77E02ECD1A63A0DA0000155B /* UIDevice+Common.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		77E02EC51A63A0D90000155B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				77E02EC61A63A0D90000155B /* Reachability.h */,
+				77E02EC71A63A0D90000155B /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E02ECE1A63A0DA0000155B /* NetworkUtil.m in Sources */,
+				77E02ED51A63A0DA0000155B /* UIDevice+Common.m in Sources */,
+				77E02ED31A63A0DA0000155B /* UIButton+extras.m in Sources */,
+				77E02ED91A63B72C0000155B /* QRRootViewController.m in Sources */,
 				771B27411A5BC4480013198E /* CLCompanyViewController.m in Sources */,
+				77E02ED21A63A0DA0000155B /* Reachability.m in Sources */,
+				77E02ED41A63A0DA0000155B /* UIColor+Common.m in Sources */,
 				771B27371A5BC4480013198E /* main.m in Sources */,
+				77E02ECF1A63A0DA0000155B /* NSDate+Common.m in Sources */,
+				77E02ED01A63A0DA0000155B /* NSString+Common.m in Sources */,
 				771B273B1A5BC4480013198E /* CLCompanyAppDelegate.m in Sources */,
+				77E02ED11A63A0DA0000155B /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +529,7 @@
 				771B275B1A5BC4480013198E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		771B275C1A5BC4480013198E /* Build configuration list for PBXNativeTarget "CLGiftProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +538,7 @@
 				771B275E1A5BC4480013198E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
